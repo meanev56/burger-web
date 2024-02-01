@@ -92,11 +92,11 @@ export default function Home() {
     <div className="reservation-form">
       <h2>Make a Reservation</h2>
       <form>
-        <input type="text" name="name" placeholder="Your Name" required="" />
-        <input type="email" name="email" placeholder="Your Email" required="" />
-        <input type="tel" name="phone" placeholder="Phone Number" required="" />
-        <input type="date" name="date" required="" />
-        <input type="time" name="time" required="" />
+        <input type="text" name="name" placeholder="Your Name" />
+        <input type="email" name="email" placeholder="Your Email" />
+        <input type="tel" name="phone" placeholder="Phone Number" />
+        <input type="date" name="date" />
+        <input type="time" name="time" />
         <textarea
           name="message"
           placeholder="Additional Message"
@@ -163,13 +163,12 @@ export default function Home() {
         </div>
       </div>
       <form className="contact-form">
-        <input type="text" name="name" placeholder="Your Name" required="" />
-        <input type="email" name="email" placeholder="Your Email" required="" />
+        <input type="text" name="name" placeholder="Your Name" />
+        <input type="email" name="email" placeholder="Your Email" />
         <textarea
           name="message"
           placeholder="Your Message"
           rows={5}
-          required=""
           defaultValue={""}
         />
         <button type="submit">Send Message</button>
